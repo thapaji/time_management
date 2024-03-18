@@ -23,6 +23,7 @@ const handleSubmit = (form) => {
     taskList.push(obj);
     display();
     displayTotal();
+    form.reset();
 }
 
 
